@@ -1,0 +1,8 @@
+{
+    "name": "heroku-node-react-tutorial",
+    "description": "tutorial application",
+    "scripts": {
+      "postdeploy": "node server/sqlinit.js"
+    },
+    "addons": ["heroku-postgresql:hobby-dev"]
+}
